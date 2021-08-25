@@ -1,0 +1,273 @@
+/**
+* @title 购物车
+* @author huang
+* @date 2021/08/24
+* @Description
+*/
+
+
+/**
+* 购物车
+*/
+.index_con{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.conf_order {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.list_title {
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+    margin: 50px 0px 26px;
+}
+.add_adress {
+    cursor: pointer;
+    width: 100px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 48px;
+    background: #000000;
+    padding: 0px 30px;
+    margin-top: 14px;
+}
+/**
+* 地址列表
+*/
+.address_list {
+    display: flex;
+    margin-top: 50px;
+}
+.address_con{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.address_mess{
+    width: 200px;
+    margin-left: 20px;
+    text-align: left;
+   
+}
+.address_mess h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #202020;
+    margin-bottom: 6px; 
+}
+.address_mess p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #202020;
+    font-weight: 300;
+}
+
+.address_mess a {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 46px;
+    font-weight: 300;
+    color: #202020;
+    text-decoration:underline; 
+}
+
+/**
+* 弹窗
+*/
+.bg_b{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+.set_address{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    margin: 130px auto 0px;
+   
+}
+.del_btn{
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    top:13px;
+    color: #A0A0A0;
+    font-size: 26px;
+    font-weight: 200;
+    transform: scaleY(.76);
+}
+.set_address h3{
+    font-size: 20px;
+    color: #505050;;
+    font-weight: 400;
+    margin-bottom: 24px;
+} 
+.set_address span{
+    font-size: 13px;
+    color: #909090;
+}
+.set_address_con{
+    margin-top: 10px;
+}
+.set_address_con input,select{
+    display: block;
+    outline: none;
+    width: 380px;
+    height: 40px;
+    border-radius: 0px;
+    border:1px solid #DCDCDC;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.set_address_con select{
+    color: #909090;
+    width: 400px;
+}
+.check_con{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 13px;
+    color: #202020;
+}
+.define_btn{
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    line-height: 48px;
+    background: #000000;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+/**
+* 商品列表
+*/
+.buy_title {
+    display: flex;
+    justify-content: space-between;
+}
+.pro_mes, .pro_con {
+    width: 756px;
+    display: flex;
+    font-size: 16px;
+    color: #202020;
+}
+.add_num{
+    width: 126px;
+    display: flex;
+    justify-content: center;
+}
+.set_all {
+    flex: 1;
+    text-align: right;
+    align-items: center;
+}
+
+/**购物车商品*/
+.buy_detail {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    border-color: #E3E3E3;
+    border-style: solid;
+    border-width: 1px 0px 1px;
+    padding-top: 33px;
+    margin: 22px 0px;
+}
+.buy_list {
+    display: flex;
+   align-items: center;
+    margin-bottom: 33px;
+}
+
+.pro_con img{
+    width: 144px;
+    height: 144px;
+}
+.pro_det_mes {
+    margin: 16px 0px 0px 30px;
+}
+.pro_det_mes h3{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cal_btn {
+    width: 126px;
+}
+.cal_btn a{
+    font-size: 14px;
+    color: #202020;
+    cursor: pointer;
+    line-height: 36px; 
+}
+
+.ed_btn {
+    display: flex;
+    border:1px solid #E3E3E3;
+    font-size: 14px;
+    height: 42px;
+    /* margin-top: 30px; */
+}
+.ed_btn input{
+    border:none;
+    outline: none;
+    width: 35px;
+    font-size: 14px;
+    color: #5c5c5c;
+    text-align: center;
+    letter-spacing: normal;
+}
+.ed_btn span {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 3px 20px;
+}
+
+.pro_mony {
+    flex: 1;
+    text-align: right;
+}
+.set_con{
+    text-align: right;
+}
+.set_con h2{
+    font-size: 18px;
+    color: #202020;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.set_btn{
+    cursor: pointer;
+    width: auto;
+    font-size: 16px;
+    color: #fff;
+    line-height: 52px;
+    border:1px solid transparent;
+    background: #000000;
+    padding: 0px 30px;
+    margin-top: 14px;
+}
+

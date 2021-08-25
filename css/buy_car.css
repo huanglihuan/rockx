@@ -1,0 +1,137 @@
+/**
+* @title 购物车
+* @author huang
+* @date 2021/08/24
+* @Description
+*/
+
+
+/**
+* 购物车
+*/
+
+.buycar_con {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.list_title {
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    margin: 70px 0px;
+}
+.buy_title {
+    display: flex;
+    justify-content: space-between;
+}
+.pro_mes, .pro_con {
+    width: 756px;
+    display: flex;
+    font-size: 16px;
+    color: #202020;
+}
+.add_num{
+    width: 126px;
+    display: flex;
+    justify-content: center;
+}
+.set_all {
+    flex: 1;
+    text-align: right;
+    align-items: center;
+}
+
+/**购物车商品*/
+.buy_detail {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    border-color: #E3E3E3;
+    border-style: solid;
+    border-width: 1px 0px 1px;
+    padding-top: 33px;
+    margin: 22px 0px;
+}
+.buy_list {
+    display: flex;
+   align-items: center;
+    margin-bottom: 33px;
+}
+
+.pro_con img{
+    width: 144px;
+    height: 144px;
+}
+.pro_det_mes {
+    margin: 16px 0px 0px 30px;
+}
+.pro_det_mes h3{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cal_btn {
+    width: 126px;
+}
+.cal_btn a{
+    font-size: 14px;
+    color: #202020;
+    cursor: pointer;
+    line-height: 36px; 
+}
+
+.ed_btn {
+    display: flex;
+    border:1px solid #E3E3E3;
+    font-size: 14px;
+    height: 42px;
+    /* margin-top: 30px; */
+}
+.ed_btn input{
+    border:none;
+    outline: none;
+    width: 35px;
+    font-size: 14px;
+    color: #5c5c5c;
+    text-align: center;
+    letter-spacing: normal;
+}
+.ed_btn span {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 3px 20px;
+}
+
+.pro_mony {
+    flex: 1;
+    text-align: right;
+}
+.set_con{
+    text-align: right;
+}
+.set_con h2{
+    font-size: 18px;
+    color: #202020;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.set_btn{
+    cursor: pointer;
+    width: auto;
+    font-size: 16px;
+    color: #fff;
+    line-height: 52px;
+    border:1px solid transparent;
+    background: #000000;
+    padding: 0px 30px;
+    margin-top: 14px;
+}
+

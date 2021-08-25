@@ -1,0 +1,125 @@
+/**
+* @Title：首页布局
+* @author huang
+* @date 2021/08/23
+* @Description
+*/
+
+.banner_con{
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.banner_detail{
+    position: relative;
+    width: 1920px;
+    height: 600px;
+    overflow: hidden;
+}
+.banner_detail img{
+    width: 1920px;
+    height: 600px;
+    margin: 0px;
+}
+
+.btn_left, .btn_right {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #ffff;
+    top: 260px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.btn_left {
+    left: 100px;
+}
+.btn_right {
+    right: 100px;
+}
+
+.banner_img{
+    position: absolute;
+    cursor: pointer;
+    width: 5760px;
+    height: 600px;
+    left: 0;
+    display: flex;
+    z-index: 1;
+    transition: all .3s;
+}
+.banner_img img{
+    width: 1920px;
+    height: 600px;
+}
+
+.cir_btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -38px;
+    z-index: 3;
+}
+.cir_btn li{
+    cursor: pointer;
+    float: left;
+    width: 34px;
+    height: 6px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background: rgb(245, 0, 0);
+    transition: all .45s
+  
+}
+.active{
+    width:6px!important;
+    background: rgb(4, 220, 29) !important;
+}
+
+/**
+*  产品分类
+*/
+.pro_list {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+}
+.list_title {
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    margin: 70px 0px;
+}
+.pro_list_detail {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pro_wid{
+    width: 590px;
+    height: 590px;
+    background: #ECEEF2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pro_wid h3{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 33px 0px 3px;
+}
+.pro_wid a {
+    font-size: 16px;
+    color: #0056D2;
+    text-decoration: none;  
+}
+.pro_wid img{
+    display: block;
+    margin: 0 auto;
+}

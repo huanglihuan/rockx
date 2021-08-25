@@ -1,0 +1,61 @@
+/**
+* @产品分类
+* @author huang
+* @date 2021/08/24
+* @Description
+*/
+
+
+/**
+*  
+*/
+.sort_list {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+.list_title {
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    margin: 70px 0px 30px;
+}
+.tip_mess {
+    font-size: 14px;
+    color:#909090;
+}
+.sort_list_detail {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    margin: 50px 0px;
+}
+.serch_con{
+    width: 386px;
+    height: 453px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.serch_con img{
+    width: 386px;
+    height:386px;
+    margin-bottom: 10px;
+}
+.serch_con h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 4px 0px 0px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: #E3E3E3;
+}
+

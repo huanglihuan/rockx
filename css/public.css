@@ -1,0 +1,93 @@
+/**
+ 头部信息
+*/
+
+* {margin: 0;padding: 0;}
+ul{
+    list-style: none;
+}
+.head_con {
+    width: 100%;
+    height: 48px;
+    background: #000;
+    box-shadow: 0 -1px #262626 inset;
+    padding: 18px 0px;
+}
+.head_detail {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 48px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 48px;
+    margin: 0 auto;
+}
+.head_left {
+    display: flex;
+    align-items: center;
+}
+.head_left img{
+    width: 140px;
+    height: 18px;
+}
+.head_left ul{
+    display: flex;
+    list-style: none;
+    margin-left: 24px;
+}
+.head_left ul li {
+    padding: 0px 24px;
+}
+.head_right ul{
+    display: flex;
+    list-style: none;
+    margin-left: 24px;
+}
+.head_right ul li {
+    font-size: 13px;
+    padding: 0px 20px;
+}
+.buy_car {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/**
+    底部信息
+*/
+.bottom_con {
+    background: black;
+    padding: 70px 0px;
+}
+.bottom_detail {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    color: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.bottom_detail h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.bottom_detail li{
+    font-size: 12px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+.bottom_detail h6 {
+    margin-top: 55px;
+}
+.bottom_detail input {
+    background: transparent;
+    outline: none;
+    color: #fff;
+    height: 20px;
+    border: 1px solid #BCBCBC;
+    padding: 3px 6px;
+}
