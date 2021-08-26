@@ -27,7 +27,7 @@
     font-size: 14px;
     color:#909090;
 }
-.sort_list_detail {
+.sort_list_detail, .lately_see_list{
     display: flex;
     width: 1200px;
     flex-wrap: wrap;
@@ -36,6 +36,7 @@
     margin: 50px 0px;
 }
 .serch_con{
+    cursor: pointer;
     width: 386px;
     height: 453px;
     margin-bottom: 45px;
