@@ -57,7 +57,7 @@
 
 .cir_btn{
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
     margin-left: -38px;
     z-index: 3;
@@ -69,13 +69,13 @@
     height: 6px;
     border-radius: 20px;
     margin-left: 10px;
-    background: rgb(245, 0, 0);
+    background: #808080;
     transition: all .45s
   
 }
 .active{
     width:6px!important;
-    background: rgb(4, 220, 29) !important;
+    background: #fff!important;
 }
 
 /**
