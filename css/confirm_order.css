@@ -259,7 +259,7 @@
     font-weight: 500;
     margin-bottom: 8px;
 }
-.set_btn{
+.set_btn, .see_order{
     cursor: pointer;
     width: auto;
     font-size: 16px;
