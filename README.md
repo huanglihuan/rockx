@@ -16,31 +16,51 @@
 
 
 
+### 项目介绍
+
+项目启动
+
+gulp run
+
+项目打包
+
+gulp build
+
+合并后文件启动（dist）
+
+gulp serve
+
 ###  项目结构
 
 > ROCKX（项目）
+>
+> > > Component（页面组件）
 >
 > > > images（静态图片资源）
 > > >
 > > > js（js文件夹）
 > > >
-> > > css（css文件夹）
+> > > pages（静态页面）
 > > >
-> > > Index.html---首页
+> > > > css（css文件夹）
 > > >
-> > > login.html---登录页
+> > > > Index.html---首页
 > > >
-> > > buy_car.html---购物车
+> > > > login.html---登录页
 > > >
-> > > confirm_order.html---订单确认
+> > > > buy_car.html---购物车
 > > >
-> > > order_detail.html---订单详情
+> > > > confirm_order.html---订单确认
 > > >
-> > > pro_details.html---商品详情
+> > > > order_detail.html---订单详情
 > > >
-> > > see_logis.html--查看物流
+> > > > pro_details.html---商品详情
 > > >
-> > > serch_list.html---搜索列表页
+> > > > see_logis.html--查看物流
 > > >
-> > > sort_list.html---分类页面
+> > > > serch_list.html---搜索列表页
+> > >
+> > > > sort_list.html---分类页面
+> > >
+> > > Dist(打包后文件)
 
