@@ -1,0 +1,88 @@
+/**
+* @Title：头部布局
+* @author huang
+* @date 2021/08/23
+* @Description
+*/
+
+
+
+/**
+    login
+*/
+.login_con {
+    width: 400px;
+    height: 284px;
+    margin: 200px auto 254px;
+}
+.login_con h2{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.login_con span{
+    font-size: 14px;
+    color: #414141;
+}
+.login_con input{
+    width: 390px;
+    height: 34px;
+    padding: 5px;
+    margin-top: 14px;
+    outline:none;  
+    border-radius: 0;
+    border:1px solid #DCDCDC
+}
+.login_btn {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 4px;
+    background: #000;
+    border:1px solid transparent;
+    margin-top: 30px;
+}
+
+.login_btn>div::before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0,1);
+    transform-origin: left center;
+    z-index: 1;
+    transition: transform .45s cubic-bezier(.785, .135, .15, .86);
+    background-color: #fff;
+    transform-origin: left center;
+}
+
+.login_text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    transition: color .5s linear;
+    transform-origin: left center;
+   
+    z-index: 3;
+}
+.login_btn:hover .login_text{
+    color: #000;
+}
+.login_btn:hover>div::before{
+    transform: scale(1, 1);
+}
+
