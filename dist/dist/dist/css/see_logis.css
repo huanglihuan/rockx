@@ -1,0 +1,98 @@
+/**
+ 头部信息
+*/
+
+.conf_order {
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.list_title {
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+    margin: 50px 0px 26px;
+}
+/**
+* 地址列表
+*/
+.address_list {
+    display: flex;
+    margin-top: 50px;
+}
+.address_con{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.address_mess{
+    width: 200px;
+    margin-left: 20px;
+    text-align: left;
+   
+}
+.address_mess h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #202020;
+    margin-bottom: 6px; 
+}
+.address_mess p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #202020;
+    font-weight: 300;
+}
+
+/**
+* 物流状态
+*/
+.logis_con {
+    width: 100%;
+    background: #FAFBFC;
+    padding: 30px 40px;
+    margin-top: 40px;
+}
+.logis_con_line{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.logis_node:last-child{
+    border:none  
+}
+.logis_node {
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+    border-left: 1px solid #E3E3E3;
+    padding-left: 22px;
+}
+.logis_node h5{
+    font-size: 14px;
+    color: #909090;
+    line-height: 13px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+.cir_icon{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #D7D7D7;
+    border-radius: 10px;
+    top:0px;
+    left:-5px;
+}
+.cir_icon_now{
+    background: #000000 !important;
+}
+.logis_node span {
+    font-size: 12px;
+    color: #a09f9f;
+    ont-weight: 200;
+}

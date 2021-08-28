@@ -1,0 +1,35 @@
+
+
+.bottom_con {
+    background: black;
+    padding: 70px 0px;
+}
+.bottom_detail {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    color: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.bottom_detail h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.bottom_detail li{
+    font-size: 12px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+.bottom_detail h6 {
+    margin-top: 55px;
+}
+.bottom_detail input {
+    background: transparent;
+    outline: none;
+    color: #fff;
+    height: 20px;
+    border: 1px solid #BCBCBC;
+    padding: 3px 6px;
+}

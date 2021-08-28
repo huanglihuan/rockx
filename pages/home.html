@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>SpaceX - Falcon Heavy</title>
+    <link rel="stylesheet" type="text/css" href="../css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="../component/header/headercomp.css"/>
+    <link rel="stylesheet" type="text/css" href="../component/banner/banner.css"/>
+    <link rel="stylesheet" type="text/css" href="../component/serchModul/serchmodul.css"/>
+    <link rel="stylesheet" type="text/css" href="../component/footer/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+
+</head>
+<body>
+    <!--头部信息-->
+    @@include('../component/header/headercomp.html')
+    <!--搜索-->
+    @@include('../component/serchModul/serchmodul.html')
+
+    <!--轮播图-->
+    <div class="index_con">
+
+        @@include('../component/banner/banner.html')
+
+        <!--产品分类-->
+        <div class="pro_list">
+            <h2 class="list_title">产品分类</h2>
+            <div class="pro_list_detail">
+                <div class="pro_wid">
+                   <h3>男士</h3>
+                   <a href="sort_list.html">查看产品 ></a>
+                   <img src="../images/cloth_1.png" />
+                </div>
+                <div class="pro_wid">
+                    <h3>女士</h3>
+                   <a href="sort_list.html">查看产品 ></a>
+                   <img src="../images/cloth_2.png" />
+                </div>
+                <div class="pro_wid">
+                    <h3 href="sort_list.html">儿童</h3>
+                   <a>查看产品 ></a>
+                   <img src="../images/cloth_3.png" />
+                </div>
+                <div class="pro_wid">
+                    <h3>配件</h3>
+                   <a href="sort_list.html">查看产品 ></a>
+                   <img src="../images/cloth_4.png" />
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+
+     <!--底部内容-->
+     @@include('../component/footer/footer.html')
+     　
+     <script type="text/javascript" src="../js/index.js" ></script>
+     <script type="text/javascript" src="../js/public.js" ></script>   
+</body>
+
+
+</html>
